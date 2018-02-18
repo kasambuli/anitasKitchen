@@ -113,7 +113,6 @@ h4 {
   border: 1px solid #333;
   height: 392px;
   width: 492px;
-  box-shadow: 10%;
 }
 .box2 {
   border: 1px solid #333;
@@ -129,4 +128,11 @@ h4 {
   font-weight: bold;
   padding-left: 3%;
   padding-top: 5%
+}
+.box4 {
+  background-color: white;
+  border: 10px solid #333;
+  width: 1000px;
+  height: 300px;
+  
 }
