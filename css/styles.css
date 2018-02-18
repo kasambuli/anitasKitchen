@@ -21,12 +21,6 @@ h1 {
     color: white;
     font-family: fantasy;
 }
-.{
-  border-style: ridge;
-  height: 400px;
-  width: 510px;
-   200px;
-}
 .footer {
   background-color: #CC6600;
   text-align: center;
@@ -43,7 +37,8 @@ h1 {
   text-align: center;
   background-image: url("../img/backgrounds/subscribe.jpg");
   color: white;
-  padding-bottom: 14%;
+  padding-bottom: 7%;
+  padding-top: 7%;
 }
 .email p {
   font-size: 30px;
@@ -51,20 +46,34 @@ h1 {
 .foods {
   background-image: url("../img/backgrounds/foodsBg.jpg");
   color: white;
-  padding-bottom: 30%;
+  padding-bottom: 8%;
+  padding-top: 8%;
+  padding-left: 10%;
+
 }
 h4 {
   color: #CC6600;
   text-transform: capitalize;
 }
 .button1 {
-  background-color: white;
-   color: black;
-   border: 2px solid #e7e7e7;
+   color: white;
+   border:1px ;
+   height: 40px;
+   width: 400px;
+   border-radius: 4px;
+   font-size: 20px;
+   text-align: left;
+
 }
 .button2 {
   background-color: #CC6600;
   color: white;
+  height: 40px;
+  width: 200px;
+  border-color: #CC6600;
+  border-radius: 4px;
+  font-size: 20px;
+  border: 1px;
 }
 #party {
   background-color: #CC6600;
@@ -83,13 +92,41 @@ h4 {
 }
 #fastfood {
   text-align: left;
+  margin: 25px;
+  padding: 50px;
 }
 #drinks {
   text-align: right;
+  margin: 25px;
+  padding: 50px;
 }
 .button3 {
   background-color: white;
    color: #CC6600;
    border: 2px solid #CC6600;
    border-radius: 4px;
+   width: 200px;
+   height: 50px;
+   font-weight: bold;
+}
+.box1 {
+  border: 1px solid #333;
+  height: 392px;
+  width: 492px;
+  box-shadow: 10%;
+}
+.box2 {
+  border: 1px solid #333;
+  height: 392px;
+  width: 496px;
+}
+.box3 {
+  background-color: white;
+  color: #CC6600;
+  border: 1px;
+  width: 1000px;
+  height: 400px;
+  font-weight: bold;
+  padding-left: 3%;
+  padding-top: 5%
 }
