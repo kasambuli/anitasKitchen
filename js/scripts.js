@@ -5,6 +5,7 @@ $(document).ready(function() {
 
     event.preventDefault();
     alert(emailInput + "you've successfully subscribed")
+    $(".button2").html("subscribed!")
 
   });
 });
